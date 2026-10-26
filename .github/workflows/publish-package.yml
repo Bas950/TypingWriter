@@ -12,10 +12,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Install Node v16
+      - name: Install Node v24
         uses: actions/setup-node@v3.8.1
         with:
-          node-version: 16
+          node-version: 24.22.1
           registry-url: "https://registry.npmjs.org"
 
       - name: Install dependencies
